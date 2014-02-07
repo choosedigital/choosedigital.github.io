@@ -118,6 +118,15 @@
 			<h2>Authentication</h2>
 
 			<p>Every request to the API must contain authentication information to establish the identity of the principal making the request. In REST, this is done by first putting the headers in a canonical format, then signing the headers using your Choose Digital Secret Access Key.</p>
+
+			<h3>Access keys for testing (add as request parameters):</h3>
+			<code>cdaccesskeyid: 8627E307937657A8F29B0152378DF6C6</code>
+			
+			<code>authorization: 6VEcIRl5rq7HGRqTqhEdcxQTJtulcgW3HrVpuQS9oGp7Abjy5SPodymIpczAjnY</code>
+
+			<p>The current date-time is also required in UTC format in the request headers, for example:<br>
+			x-cd-date: 2014-02-03T09:40:00.0000Z <br>(do not use this date, always pass the current date)</p>	
+
 			<p>More about <a href="https://github.com/choosedigital/api-spec/blob/master/Authentication.md">Authentication</a> in the docs.</p>
 			
 
